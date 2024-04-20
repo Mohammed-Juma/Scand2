@@ -1,0 +1,113 @@
+body{
+    height: 200px;
+    background-image:linear-gradient(to bottom ,#4da17f ,transparent) ;
+
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: rgb(243, 169, 79);
+}
+
+div{
+ 
+width: 300px;
+height: 500px;
+background: yellow;
+
+transform: translate(150px,30px);
+background-image: linear-gradient(to bottom ,yellow 0 20%,rgb(0, 144, 163) 20% 35%  ,rgb(9, 205, 231) 35%);
+float: left;
+margin: 30px;
+
+}
+
+
+.div2{
+ 
+    width: 300px;
+    height: 500px;
+    background: yellow;
+    
+    transform: translate(150px,30px);
+    background-image: linear-gradient(to bottom ,yellow 0 20%,rgb(0, 144, 163) 20% 35%  ,rgb(9, 124, 231) 35%);
+    float: left;
+    margin: 30px;
+    
+    }
+
+
+.sh1{
+    
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+    color: rgb(0, 89, 255) ;
+}
+.sh2{
+    
+    text-align: center;
+    font-size: 25px;
+
+    color: rgb(255, 255, 255) ;
+}
+
+ul{
+    list-style-type: circle;
+    text-align: center;
+ margin: 60px;
+    color: rgb(0, 89, 255);
+    line-height: 35px;
+    font-style: italic;
+}
+
+
+.list2{
+    list-style-type: circle;
+    text-align: center;
+ margin: 60px;
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+    font-style: italic;
+}
+
+
+.sh3{ 
+text-align: center;
+}
+
+
+input{
+    
+    color: rgb(255, 255, 0);
+  font-variant: small-caps;
+  font-size: 40px;
+  background: white;
+  cursor: pointer;
+  
+}
+.sh4{
+
+height: 70px;
+width: 70px;
+background:rgb(0, 144, 163) ;
+border-radius: 50%;
+text-align: center;
+font-size: 60px;
+color: white;
+position: absolute;
+top: -100px;
+left: -60px;
+
+}
+
+input:hover
+{
+background:rgb(255, 94, 0) ;
+color: rgb(0, 0, 0);
+font-variant: small-caps;
+font-size: 50px;
+}
